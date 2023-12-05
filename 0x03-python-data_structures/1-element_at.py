@@ -4,10 +4,3 @@ def element_at(my_list, idx):
         return None
     else:
         return my_list[idx]
-
-# Example usage
-my_list = [1, 2, 3, 4, 5]
-idx = 3
-result = element_at(my_list, idx)
-print("Element at index {} is {}".format(idx, result))
-
